@@ -22,6 +22,11 @@
     align-items: center;
     text-decoration: none;
 }
+.link-product:hover{
+    transform: scale(1.05);
+    transition: all 0.1s;
+}
+
 .container{
     background-color: #052c6f;
     width: 100%;
