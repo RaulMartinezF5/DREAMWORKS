@@ -5,7 +5,7 @@ header{
 }
 #flex-box-title{
     display: flex;
-    gap: 17vw;
+    gap: 21vw;
 }
 .title{
     width: 500px;
@@ -15,8 +15,13 @@ header{
     display: flex;
     justify-content: center;
     gap: 2%;
+    background-color: rgb(48, 48, 176);
 }
 #nav-button{
-    background-color: aqua;
+    background-color: rgb(165, 241, 241);
     font-size: larger;
+}
+#logo-principal{
+    padding-left: 3vw; 
+    padding-top: 1vw;
 }
