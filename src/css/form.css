@@ -1,0 +1,17 @@
+#formulario {
+    background-color: #052C6F;
+    display: block;
+    margin: 15px 0 15px 0;
+}
+
+#boton {
+    padding: 2px 100px 2px 100px;
+    border: 1px;
+    
+}
+
+.boton {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0 15px 0;
+}
