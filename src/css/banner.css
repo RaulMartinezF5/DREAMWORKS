@@ -1,0 +1,30 @@
+
+.mySlides {
+    margin: 1px;
+}
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Slideshow container */
+.slideshow-container {  
+    width: 100%;
+    height: 300px;
+    overflow: none;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 4s;
+}
+
+@keyframes fade {
+    from {opacity: 0.2} 
+    to {opacity: 1}
+  }
