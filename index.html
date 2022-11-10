@@ -4,12 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/styles.css">
+
     <title>Dreamworks</title>
+    <link rel="stylesheet" href="src\css\styles.css">
 </head>
-<body>
+<body id="body-category">
     
     <header> 
-        <h1>DreamWorks Animation prueba</h1>
+        <div id="flex-box-title">
+            <div>
+                <img id="logo-principal" src="src\Assets\img\DreamWorks_Logo.png" alt="logo principal" >
+            </div>
+            <div id="title-logo-flex-box">
+                <h2>DreamWorks Animation</h2>
+            </div>
+        </div> 
+        
+        <nav id="nav-buttons">
+            <ul id="ul-buttons">
+                 <li class="nav-button"><a href="index.html">HOME</a></li>
+                 <li class="nav-button"><a href="category.html">GALLERY</a></li>
+                 <li class="nav-button"><a href="details.html">DETAIL</a></li>
+            </ul>
+        </nav>
+        
     </header>
+    <iframe id="frame-banner" src="banner.html"></iframe>
+    
+    
+
+
+<section id="categorias">
+
+    <img src="src\Assets\img\img-category\shrek.jpg" alt="Shrek" width="150px" height="150px" id="shrek">
+
+    <img src="src\Assets\img\img-category\madagascar.jpg" alt="Madagascar" width="150px" height="150px" id="madagascar">
+
+    <img src="src/Assets/img/img-category/kungfu-panda3.jpg" alt="Kung-Fu Panda 3" width="150px" height="150px" id="kungfu-panda3">
+
+    <img src="src/Assets/img/img-category/como-entrenar-dragon.jpg" alt="Cómo entrenar a mi dragón" width="150px" height="150px" id="dragon">
+
+    <img src="src/Assets/img/img-category/el-gato-con-botas.jpg" alt="El gato con botas" width="150px" height="150px" id="gato">
+
+    <p id="merchandising">Merchandising</p>
+
+
+</section>
+
+
+<section id="formulario">
+
+    <form name="form" action="" method="post">
+        <legend>Suscripción</legend>
+
+        <div class="email">
+            <label for="email">Introduzca su email</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="password">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+        </div>
+
+        <div class="boton">
+            <input type="submit" id="boton" name="boton" value="Enviar">
+        </div>
+
+
+    </form>
+
+</section>
+<footer>
+    <p>©2022. DREAMWORKS </p>
+    <img id="Dreamworks-Logo" src="src/Assets/img/DreamWorks_Logo.png" alt="logodreamworks">
+  </footer>  
 </body>
 </html>
