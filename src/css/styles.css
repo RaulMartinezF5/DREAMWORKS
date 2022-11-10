@@ -1,4 +1,10 @@
 @import url("default-config.css");
 @import url("details-page.css");
 @import url("category-page.css");
+<<<<<<< HEAD
 @import url("footer.css");
+=======
+@import url("header.css");
+
+@import url("banner.css");
+>>>>>>> 7a134e857bee3e4d9cf2ee42208de5011a4916c6
