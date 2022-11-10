@@ -1,9 +1,9 @@
 iframe{
-    margin-bottom: 2px;
+
     border: none;
     width:100%;
     object-fit: cover;
-    height: 310px;
+    height: 30%;
     
 }
 #body-category{
@@ -13,6 +13,7 @@ iframe{
     height: 200vh;
 }
 #merch-section{
+    margin-top: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
