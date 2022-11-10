@@ -1,7 +1,7 @@
 iframe{
     margin-bottom: 2px;
     border: none;
-    width:80%;
+    width:100%;
     object-fit: cover;
     height: 310px;
     
@@ -10,15 +10,16 @@ iframe{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 200vh;
 }
 #merch-section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
-    height: 80vh;
+    width: 100%;
+    height: 90%;
     background-color: #718097;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 .link-product{
     background-color: aliceblue;
