@@ -1,27 +1,41 @@
 header{
+    display: flex;
+    flex-direction: column;
     background-color: blue;
+    height: 30vh;
     width: 100%;
-    position: fixed;
 }
 #flex-box-title{
     display: flex;
-    gap: 21vw;
-}
-.title{
-    width: 500px;
-    place-self: center;
-}
-#nav-buttons{
-    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    gap: 2%;
-    background-color: rgb(48, 48, 176);
 }
-#nav-button{
-    background-color: rgb(165, 241, 241);
-    font-size: larger;
+#title-logo-flex-box{
+    position: absolute;
+    top: 10%;
+    left: 40%;
 }
 #logo-principal{
-    padding-left: 3vw; 
-    padding-top: 1vw;
+    width: 20%;
+    height: 20%;
+    margin: 1.2%;
 }
+#nav-buttons{
+    background-color: black;
+    height: 10%;
+}
+#ul-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-button a{
+    color: #fff;
+    text-decoration: none;
+    font-size: bolder;
+}
+
+
